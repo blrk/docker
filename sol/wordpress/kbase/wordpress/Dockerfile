@@ -1,6 +1,6 @@
 
 FROM wordpress:latest
-MAINTAINER Ajeet S Raina
+MAINTAINER blrk
 RUN apt-get update -y
 RUN apt install -y wget unzip
 RUN mkdir -p /var/www/html/wp-content
